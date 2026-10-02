@@ -1,0 +1,12 @@
+.dart_tool/
+.idea/
+.vscode/
+build/
+**/venv/
+**/__pycache__/
+*.pyc
+.env
+cyber_nova_backend/.env
+cyber_nova_backend/venv/
+*.iml
+.DS_Store

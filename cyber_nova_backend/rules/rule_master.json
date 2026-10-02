@@ -1,0 +1,122 @@
+{
+  "LM-001": {
+    "rule_id": "LM-001",
+    "rule_reference": "Rule 6(1)(b)",
+    "field": "product_name",
+    "requirement": "Common or generic name of the commodity should be declared on the package.",
+    "validation_type": "presence",
+    "severity": "HIGH",
+    "mandatory": true,
+    "explanation": "Rule 6(1)(b) of the Legal Metrology (Packaged Commodities) Rules requires that every package clearly mention the common or generic name by which the commodity is ordinarily known. This prevents misleading brand names disguising the actual contents."
+  },
+  "LM-002": {
+    "rule_id": "LM-002",
+    "rule_reference": "Rule 6(1)(c)",
+    "field": "manufacturer_party",
+    "requirement": "Name and address of the manufacturer, packer or importer, as applicable, should be declared on the package.",
+    "validation_type": "presence",
+    "severity": "HIGH",
+    "mandatory": true,
+    "explanation": "Rule 6(1)(c) requires the identity and address of the responsible person (manufacturer, packer, or importer) so that a consumer or enforcement authority can trace the source of a packaged commodity."
+  },
+  "LM-003": {
+    "rule_id": "LM-003",
+    "rule_reference": "Rule 6(1)(c), Rule 12(1)",
+    "field": "net_quantity",
+    "requirement": "Net quantity should be declared correctly in the prescribed standard unit of weight, measure or number as applicable.",
+    "validation_type": "presence",
+    "severity": "HIGH",
+    "mandatory": true,
+    "explanation": "Rule 6(1)(c) requires the net quantity; Rule 12(1) prescribes the manner of declaration and the standard units of weight/measure/number to be used so that consumers can accurately compare commodities."
+  },
+  "LM-004": {
+    "rule_id": "LM-004",
+    "rule_reference": "Rule 6(1)(e), Rule 12(1), Rule 2(m)",
+    "field": "mrp",
+    "requirement": "Maximum Retail Price inclusive of all taxes should be declared in the prescribed manner on the package.",
+    "validation_type": "presence",
+    "severity": "HIGH",
+    "mandatory": true,
+    "explanation": "Rule 6(1)(e) mandates the MRP; Rule 12(1) the manner of its declaration; and Rule 2(m) of the Legal Metrology Act defines the retail sale price as the maximum inclusive of all taxes, preventing unfair pricing practices."
+  },
+  "LM-005": {
+    "rule_id": "LM-005",
+    "rule_reference": "Rule 6(1)(d), Rule 2(m)",
+    "field": "packing_date",
+    "requirement": "Month and year of manufacture, packing or import, as applicable, should be declared on the package.",
+    "validation_type": "presence_if_applicable",
+    "severity": "MEDIUM",
+    "mandatory": false,
+    "explanation": "Rule 6(1)(d) requires the month and year of manufacture or packing; Rule 2(m) provides the definitional context. This enables traceability, recall, and freshness assessment for consumers and enforcement officers."
+  },
+  "LM-006": {
+    "rule_id": "LM-006",
+    "rule_reference": "Rule 6(1)(d)",
+    "field": "consumer_care",
+    "requirement": "Consumer care details such as name, address, telephone number or email should be declared where applicable so that complaints can be registered.",
+    "validation_type": "presence",
+    "severity": "HIGH",
+    "mandatory": true,
+    "explanation": "Rule 6(1)(d) read with the consumer-protection provisions requires accessible grievance redressal contact information on the package, ensuring that consumers have a clear channel for complaints."
+  },
+  "LM-007": {
+    "rule_id": "LM-007",
+    "rule_reference": "Rule 6(2)",
+    "field": "country_of_origin",
+    "requirement": "Country of origin or manufacture should be declared on the package where applicable.",
+    "validation_type": "presence_if_applicable",
+    "severity": "MEDIUM",
+    "mandatory": false,
+    "explanation": "Rule 6(2) requires declaration of the country of origin on imported packaged commodities as well as in those domestic cases where such a declaration is prescribed, enabling informed consumer choice."
+  },
+  "LM-008": {
+    "rule_id": "LM-008",
+    "rule_reference": "Rule 9(4)",
+    "field": "language_of_declarations",
+    "requirement": "All mandatory declarations should be made in Hindi in Devanagari script or English language. Other languages may additionally be used.",
+    "validation_type": "language_presence",
+    "severity": "MEDIUM",
+    "mandatory": true,
+    "explanation": "Rule 9(4) ensures that declarations are made in at least one of the two nationally understood languages (Hindi in Devanagari script or English) so that the information is accessible to inspectors and consumers across the country."
+  },
+  "LM-009": {
+    "rule_id": "LM-009",
+    "rule_reference": "Rule 12(6)",
+    "field": "quantity_expression",
+    "requirement": "The declaration of net quantity should not contain misleading words such as 'minimum', 'not less than', 'average', 'about', 'approximately', 'Jumbo', 'Family Size', 'King Size' or any other qualifying/qualifying word when used to replace or distort the actual net quantity declaration itself.",
+    "validation_type": "quantity_expression_prohibited",
+    "severity": "MEDIUM",
+    "mandatory": true,
+    "explanation": "Rule 12(6) of the Legal Metrology (Packaged Commodities) Rules, 2011 prohibits qualifying words around the net-quantity declaration that could suggest a tolerance or overfill where one is not statutorily permitted, protecting consumers from underweight packaged goods. Qualifiers such as \"Jumbo Pack\", \"Family Size\", and \"King Size\" must not replace or distort the actual numeric quantity declaration."
+  },
+  "LM-010": {
+    "rule_id": "LM-010",
+    "rule_reference": "Applicable rule to be verified",
+    "field": "batch_number",
+    "requirement": "Batch, lot or code number should be declared on the package wherever applicable to enable traceability and recall.",
+    "validation_type": "presence_if_applicable",
+    "severity": "MEDIUM",
+    "mandatory": false,
+    "explanation": "Batch/lot numbering is required under various LM/FS/FSSAI provisions to identify manufacturing runs and allow targeted recalls. The exact applicable Legal Metrology rule reference is to be verified against the latest notified text for the specific commodity class."
+  },
+  "LM-011": {
+    "rule_id": "LM-011",
+    "rule_reference": "Applicable rule to be verified",
+    "field": "unit_sale_price",
+    "requirement": "Unit sale price should be declared on the package wherever applicable per the relevant provisions so that consumers can compare prices on a per-unit basis.",
+    "validation_type": "presence_if_applicable",
+    "severity": "MEDIUM",
+    "mandatory": false,
+    "explanation": "The declaration of a unit sale price (per kg, per 100 g, per L, per 100 ml, etc.) supports transparent price comparison. The exact applicable rule reference and commodity thresholds are to be cross-checked against the current Legal Metrology (Packaged Commodities) Rules text."
+  },
+  "LM-012": {
+    "rule_id": "LM-012",
+    "rule_reference": "Rule 13",
+    "field": "quantity_declaration_unit",
+    "requirement": "The declaration of net quantity should use the standard units of weight, measure, or number prescribed by Rule 13. Non-standard units such as ounce (oz), pound (lb), quart, tola, etc. should be reviewed against the applicable schedule. Number-based declarations (Dozen, Pack, Case, Piece) are permissible only where appropriate to the commodity.",
+    "validation_type": "non_standard_unit",
+    "severity": "MEDIUM",
+    "mandatory": true,
+    "explanation": "Rule 13 of the Legal Metrology (Packaged Commodities) Rules, 2011 prescribes the manner of declaring the net quantity. Unofficial / traditional units (tola, lb, oz, quart) should be reviewed; number-based declarations by the dozen/piece/case are permitted for appropriate commodities but require inspector confirmation of commodity-appropriateness."
+  }
+}
